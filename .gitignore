@@ -1,0 +1,43 @@
+# CodeIgniter
+application/cache/*
+!application/cache/index.html
+!application/cache/.gitkeep
+application/logs/*
+!application/logs/index.html
+!application/logs/.gitkeep
+
+# Composer
+/vendor/
+composer.phar
+
+# Environment & local settings
+.env
+*.env.local
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE artifacts
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary / Log files
+*.log
+*.tmp
+*.temp
